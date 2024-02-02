@@ -7,6 +7,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-header">{{ $project->title }}</div>
+                        <div class="card-subtitle">{{$project->type?->name}}</div>
                         <div class="card-body">{{ $project->description }}</div>
                         <div class="buttons d-flex">
                             <a type="button" class="btn btn-primary" href="{{ route('admin.projects.show', $project->id) }}">Details</a>

@@ -16,6 +16,7 @@ class ProjectSeeder extends Seeder
 
         $projects = [
             [
+                'type_id' => '1',
                 'title' => 'progetto1test',
                 'description' => 'progetto1test',
                 'thumb' => 'progetto1test',
@@ -23,6 +24,7 @@ class ProjectSeeder extends Seeder
                 'type' => 'progetto1test',
             ],
             [
+                'type_id' => '2',
                 'title' => 'progetto2test',
                 'description' => 'progetto2test',
                 'thumb' => 'progetto2test',
@@ -30,6 +32,7 @@ class ProjectSeeder extends Seeder
                 'type' => 'progetto2test',
             ],
             [
+                'type_id' => '3',
                 'title' => 'progetto3test',
                 'description' => 'progetto3test',
                 'thumb' => 'progetto3test',
